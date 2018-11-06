@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  -moz-background-size: cover;
+  background-size: cover; /*背景滿版*/
+  background-position: center center; /*背景位置*/
+  /* background-image: url('../public/img/3169.jpg'); */
+}
+.navbar{
+  background-color: rgba(255, 255, 255, 0.913);
+  border-bottom:6px rgb(249, 178, 47) solid;
+}
+.loginDiv{
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.899);
+  color: rgb(0, 0, 0);
+  /* max-height: 80%;
+  min-height: 80%; */
+  /* box-shadow:1px 1px 15px 5px rgb(63, 63, 63); */
+}
+.loginInput{
+  background: transparent;
+  border: 0 solid;
+  border-bottom: 1px solid rgb(99, 99, 99);
+  color: rgb(0, 0, 0);
+  display: block;
+  margin: 1rem;
+  padding: .5rem;
+  transition: 250ms background ease-in;
+}
+.loginInput:focus, .login-password:focus {
+  /* background: white; */
+  color: black;
+  transition: 250ms background ease-in;
+}
